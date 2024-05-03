@@ -1,0 +1,143 @@
+.form-input{
+    width: 300px;
+}
+
+.personal-details-card{
+    border-top: 3px solid blue;
+}
+
+.short-name{
+    width: 90px;
+    height: 90px;
+    font-family: "Libre Baskerville";
+    background-color: #de8535;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    font-size: 38px;
+    overflow: hidden;
+    line-height: 90px;
+}
+
+.candidate-name{
+    font-size: 42px !important;
+    font-family: "Libre Baskerville" !important;
+    color: #de8535;
+}
+
+.job-title{
+    font-size: 20px;
+    font-family: "Libre Baskerville";
+    padding-top: 6px;
+    line-height: 20px;
+}
+
+.contact{
+    font-size: 12px !important;
+    font-family: "Libre Baskerville";
+    color: #de8535;
+    text-align: left;
+    padding-top: 22px;
+}
+
+.resume-content{
+    font-size: 12px !important;
+}
+
+.sub-heading{
+    font-size: 16px;
+    line-height: 16px;
+    color: #de8535;
+    border-bottom: solid 1px #de8535;
+    padding-bottom: 2px;
+    margin-bottom: 12px;
+}
+.button{
+    display:flex;
+    justify-content:flex-end;
+    color:#246EED;
+    font-size: 15px;
+    font-family: sans-serif;
+    background-color: #ffffff;
+    padding:5px 10px;
+    border: 1px solid blue;
+    border-radius: 15px 15px;
+   
+}
+.button:hover{
+    background-color: #246EED;
+    color: #ffffff;
+}
+
+.point-dot{
+    display: inline-block;
+    text-align: center;
+    height: 4px;
+    width: 4px;
+    border-radius: 45%;
+    margin: 2px 5px;
+    background-color: #de8535;
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 567px) {
+    .short-name{
+        width: 60px;
+        height: 60px;
+        font-size: 26px;
+    }
+    .form-input{
+        width: 200px;
+    }
+    .candidate-name{
+        font-size: 22px !important;
+    }
+    .job-title{
+        font-size: 12px;
+        padding-top: 2px;
+    }
+    .contact{
+        font-size: 9px !important;
+        padding-top: 12px;
+        margin-right: 4px;
+    }
+
+    .resume-content{
+        font-size: 9px !important;
+    }
+    
+    .sub-heading{
+        font-size: 12px;
+    }
+
+    .section-header{
+        font-size:11px;
+        
+        font-weight: 500;
+    }
+}
+
+  /* Small Devices, Tablets */
+  @media only screen and (min-width : 768px) {
+
+  }
+
+  /* Medium Devices, Desktops */
+  @media only screen and (min-width : 992px) {
+
+  }
+
+  /* Large Devices, Wide Screens */
+  @media only screen and (min-width : 1200px) {
+    /* .form-input{
+        width: 200px;
+    } */
+    .short-name{
+        margin-right: 10px;
+    }
+
+  }
